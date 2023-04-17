@@ -3,9 +3,12 @@
 
 
 
+//Current Forecast
 
+//Not sure if I use moment.js to link to the location??
 
-
+var currentDate = moment().format('DD/MM/YYYY'); 
+$("#currentDate").text(currentDate);  
 
 
 
